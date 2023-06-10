@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact</title>
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    #circle {
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background-color: red;
+    }
+  </style>
+
+</head>
+<body>
+  <div id="circle"></div>
+  <nav>
+    <ul>
+      <li><a href="index.html">Товары</a></li>
+      <li><a href="contact.html">Связаться с нами!</a></li>
+    </ul>
+  </nav>
+  <section>
+    <h1>Связаться с нами!</h1>
+    <form id="contactForm">
+      <label for="name">Имя:</label>
+      <input type="text" id="name" required>
+      <label for="email">электроный адрес:</label>
+      <input type="email" id="email" required>
+      <label for="message">Ваше обращение:</label>
+      <textarea id="message" rows="5" required></textarea>
+      <button type="submit">Отправить</button>
+    </form>
+  </section>
+  <script src="app2.js"></script>
+</body>
+</html>
